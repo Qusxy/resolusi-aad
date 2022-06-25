@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code&family=Montserrat:wght@300;400;500;600;700&display=swap');
+body ,html {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    height: 100%;
+    font-weight: 700;
+    background-color: white;
+    
+}
+
+.container {
+    display: flex;
+    height: 100%;
+    align-content: center;
+    justify-content: center;
+}
+
+.login-form {
+    height: 300px;
+    width: 400px;
+    padding: 0 35px;
+    border: none;
+    background-color: white;
+}
+
+input[type="email"],
+input[type="password"] {
+    border-radius: 20px;
+}
+
+.btn-login {
+    height: 35px;
+    /*kenapa bordernya gak radius */
+    border-radius: 20px;
+    font-weight: 700;
+}
+
